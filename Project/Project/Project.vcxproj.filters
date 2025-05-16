@@ -21,9 +21,15 @@
     <ClCompile Include="LoginSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MovieSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LoginSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieSelection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

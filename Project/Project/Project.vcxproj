@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="LoginSystem.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MovieSelection.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LoginSystem.h" />
+    <ClInclude Include="MovieSelection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
