@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c09a2af6-bbd6-4497-886a-4a7ff4c54144}</ProjectGuid>
-    <RootNamespace>Project</RootNamespace>
+    <ProjectGuid>{837e9502-a008-4832-b4e3-2567ceb6c132}</ProjectGuid>
+    <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LoginSystem.h" />
+    <ClInclude Include="MovieData.h" />
+    <ClInclude Include="MovieSelection.h" />
+    <ClInclude Include="MovieSystem.h" />
+    <ClInclude Include="PaymentSystem.h" />
+    <ClInclude Include="SeatBooking.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="LoginSystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MovieSelection.cpp" />
+    <ClCompile Include="MovieSystem.cpp" />
+    <ClCompile Include="PaymentSystem.cpp" />
+    <ClCompile Include="SeatBooking.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LoginSystem.h" />
-    <ClInclude Include="MovieSelection.h" />
+    <Text Include="users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

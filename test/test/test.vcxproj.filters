@@ -15,22 +15,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LoginSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MovieSelection.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="LoginSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeatBooking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MovieSelection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MovieData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoginSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeatBooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaymentSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="users.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
